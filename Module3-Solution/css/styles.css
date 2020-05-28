@@ -1,0 +1,89 @@
+body {
+	font-size: 16px;
+	background-color:#000000;
+	font-family: 'Oxygen', sans-serif;
+}
+.container-fluid{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/*HEADER*/
+#header-nav {
+	background-color: #7B0000;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	padding-top: 25px; 
+}
+
+.navbar-brand{
+	height: 65px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1.2px solid #8ca3a3;
+}
+.navbar-header button.navbar-toggle{
+	margin-top: 15px;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #FFFFFF;
+}
+#nav-list a:hover{
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+h2, h3{
+	margin-top: 10px;
+}
+h2, h3{
+	color: #FFFFFF;
+}
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: auto;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;	
+  border: 1px solid black;
+  overflow: auto;
+  text-align: justify;
+  color: #FFFFFF;
+  background-color:#930606;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+.container-fluid{
+	margin-left: auto;
+	margin-right: auto;
+}
+}
